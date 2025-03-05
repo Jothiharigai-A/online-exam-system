@@ -1,0 +1,60 @@
+.home-container {
+    height: 100vh;
+    display: flex;
+  }
+  
+  .left-section {
+    flex: 1;
+    background-color: #f8f3f0;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .right-section {
+    flex: 1;
+    background-color: #12322f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .college-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #12322f;
+  }
+  
+  .dept-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #8b4b29;
+    letter-spacing: 1px;
+  }
+  
+  .college-image {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+  
+  .menu-button {
+    width: 80%;
+    max-width: 300px;
+    padding: 12px;
+    margin: 15px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .menu-button:hover {
+    background-color: white;
+    color: #12322f;
+  }
+  
