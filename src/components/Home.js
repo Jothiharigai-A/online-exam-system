@@ -9,7 +9,7 @@ const Home = () => {
     <div className="home-container d-flex">
       {/* Left Side - Image and College Info */}
       <div className="left-section d-flex flex-column align-items-center justify-content-center">
-        <h2 className="college-name">TBAKC</h2>
+        <h1 className="college-name text">TBAKC</h1>
         <p className="dept-text">DEPARTMENT OF ENGLISH</p>
         <img src={collegeImage} alt="College Building" className="college-image" />
 

@@ -1,3 +1,6 @@
+.text{
+  color: #12322f;
+}
 .home-container {
     height: 100vh;
     display: flex;
